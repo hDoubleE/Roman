@@ -1,11 +1,29 @@
 using System;
 
+/*
+ *  Key:
+ *  M = 1000
+ *  D = 500
+ *  C = 100
+ *  L = 50
+ *  X = 10
+ *  V = 5
+ *  I = 1
+ * 
+ *  Special Cases:
+ *  CM = 900
+ *  CD = 400
+ *  XC = 90
+ *  XL = 40
+ *  IX = 9
+ *  IV = 4
+ */
 
-namespace Converter
+namespace Roman
 {
     public class Program
     {
-        public static void Main()
+        static void Main()
         {
             Console.WriteLine("Enter a number between 1 and 3999");
             int input = int.Parse(Console.ReadLine());
